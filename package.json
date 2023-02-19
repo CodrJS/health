@@ -1,10 +1,10 @@
 {
   "name": "@codrjs/health",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Codr health tracker",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/types/index.d.ts",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "types": "./types/index.d.ts",
   "repository": "git@github.com:CodrJS/health.git",
   "author": "Dylan Bulmer <dylan@dylanbulmer.com>",
   "license": "MIT",
@@ -12,9 +12,9 @@
   "private": false,
   "exports": {
     ".": {
-      "require": "./dist/cjs/index.js",
-      "import": "./dist/esm/index.js",
-      "types": "./dist/types/index.d.ts"
+      "require": "./cjs/index.js",
+      "import": "./esm/index.js",
+      "types": "./types/index.d.ts"
     }
   },
   "scripts": {
