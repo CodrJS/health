@@ -20,7 +20,7 @@ yarn add @codrjs/health
 Inside the micro-service, you can get the status of all topics and servers with a simple command.
 
 ```ts
-/* Import the health and kafka packages */
+/* Import the health package */
 import ServiceHealth from "@codrjs/health";
 import { express } from "express";
 
