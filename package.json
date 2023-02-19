@@ -1,11 +1,11 @@
 {
-  "name": "@codrjs/template",
+  "name": "@codrjs/health",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
-  "repository": "git@github.com:CodrJS/ts-npm-template.git",
+  "repository": "git@github.com:CodrJS/health.git",
   "author": "Dylan Bulmer <dylan@dylanbulmer.com>",
   "license": "MIT",
   "type": "module",
@@ -27,8 +27,7 @@
     "lint": "eslint -c .eslintrc.json --ignore-path .eslintignore --ext .ts src",
     "preversion": "yarn lint",
     "version": "yarn format && git add -A src",
-    "postversion": "git push && git push --tags",
-    "convert": "taplo get -f src/examples/project.toml -o json > src/examples/project.json"
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.57",
@@ -42,9 +41,9 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^27.0.4",
     "jest": "^29.0.3",
+    "kafkajs": "^2.2.3",
     "prettier": "^2.7.1",
     "typescript": "^4.9.4"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
